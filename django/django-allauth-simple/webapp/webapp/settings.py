@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "crispy_forms",
     'dashboard',
     'allauth',
     'allauth.account',
@@ -134,6 +133,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-redirect-url
 LOGIN_REDIRECT_URL = "/"
 SITE_ID=3
-CRISPY_TEMPLATE_PACK = "bootstrap4"
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_EMAIL_VERIFICATION = "none"

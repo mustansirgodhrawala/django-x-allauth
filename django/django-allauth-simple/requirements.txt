@@ -1,2 +1,2 @@
 Django==3.1.4
-django-keycloak==0.1.1
+django-allauth==0.51.0
