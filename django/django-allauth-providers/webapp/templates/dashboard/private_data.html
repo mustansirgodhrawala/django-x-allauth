@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Django-x-Keycloak</title>
+<style>
+    h1 {
+        text-align: center;
+        margin-top: 20%;
+    }
+</style>
+</head>
+<body>
+    <h1>Django-x-AllAuth PRIVATE DATA ENDPOINT</h1>
+    <h2 style="text-align: center;">Hi, <strong>{{ username }}</strong></h2>
+    <h2 style="text-align: center;">Only, <strong>logged in</strong> users can visit this endpoint</h2>
+    <h2 style="text-align: center;">Logout <strong><a href="{% url 'account_logout' %}">Here</a></strong></h2>
+    <br>
+    <h2 style="text-align: center;">Credits: <a href="http://www.github.com/mustansirgodhrawala">Mustansir Godhrawala</a></h2>
+</body>
+</html>
