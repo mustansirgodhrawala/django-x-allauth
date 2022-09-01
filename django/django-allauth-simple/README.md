@@ -6,4 +6,8 @@ If you wish to integrate Django and Django-AllAuth with Github, LinkedIn, Facebo
 
 You can also learn how to make certain endpoints available only when users are logged in and redirect when they aren't.
 
-## Django AllAuth [Source Code](https://github.com/pennersr/django-allauth) [Docs](https://django-allauth.readthedocs.io/en/latest/index.html)
+The templates in this file have been copied from the allauth repository and can be edited to each's need.
+
+## Django AllAuth Links
+### [Source Code](https://github.com/pennersr/django-allauth) 
+### [Docs](https://django-allauth.readthedocs.io/en/latest/index.html)

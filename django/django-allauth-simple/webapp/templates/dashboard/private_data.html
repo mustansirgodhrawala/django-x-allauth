@@ -12,10 +12,10 @@
 </style>
 </head>
 <body>
-    <h1>DJANGO-X-KEYCLOAK PRIVATE DATA</h1>
+    <h1>Django-x-AllAuth PRIVATE DATA ENDPOINT</h1>
     <h2 style="text-align: center;">Hi, <strong>{{ username }}</strong></h2>
     <h2 style="text-align: center;">Only, <strong>logged in</strong> users can visit this endpoint</h2>
-    <h2 style="text-align: center;">Logout <strong><a href="/accounts/logout">Here</a></strong></h2>
+    <h2 style="text-align: center;">Logout <strong><a href="{% url 'account_logout' %}">Here</a></strong></h2>
     <br>
     <h2 style="text-align: center;">Credits: <a href="http://www.github.com/mustansirgodhrawala">Mustansir Godhrawala</a></h2>
 </body>
