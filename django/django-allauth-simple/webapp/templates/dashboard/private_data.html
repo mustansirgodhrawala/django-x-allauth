@@ -13,13 +13,9 @@
 </head>
 <body>
     <h1>DJANGO-X-KEYCLOAK PRIVATE DATA</h1>
-    {% if username %}
     <h2 style="text-align: center;">Hi, <strong>{{ username }}</strong></h2>
     <h2 style="text-align: center;">Only, <strong>logged in</strong> users can visit this endpoint</h2>
     <h2 style="text-align: center;">Logout <strong><a href="/accounts/logout">Here</a></strong></h2>
-    {% else %}
-    <h2 style="text-align: center;">Not Logged In: Login <a href="/accounts/login">Here</a></strong></h2>
-    {% endif %}
     <br>
     <h2 style="text-align: center;">Credits: <a href="http://www.github.com/mustansirgodhrawala">Mustansir Godhrawala</a></h2>
 </body>

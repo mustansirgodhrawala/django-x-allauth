@@ -16,4 +16,5 @@ def private_data(request):
     """
     This view is protected and can only be viewed by logged in users
     """
-    return render(request, 'dashboard/private_data.html')
+    user = request.user
+    return render(request, 'dashboard/private_data.html', {"username":user})

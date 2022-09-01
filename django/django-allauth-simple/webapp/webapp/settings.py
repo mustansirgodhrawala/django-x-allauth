@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "crispy_forms",
     'dashboard',
     'allauth',
     'allauth.account',
@@ -130,14 +131,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SOCIALACCOUNT_PROVIDERS = {
-    'keycloak': {
-        'KEYCLOAK_URL': 'http://localhost:8080/',
-        'KEYCLOAK_REALM': 'django-keycloak',
-        "client_secret": "1h7Cu9l7WNtYJYNJ5vPzkA8XCMRDi6qH"
-    }
-}
-
-SITE_ID = 1
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-redirect-url
 LOGIN_REDIRECT_URL = "/"
+SITE_ID=3
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_EMAIL_VERIFICATION = "none"
